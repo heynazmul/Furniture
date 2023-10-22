@@ -1,0 +1,20 @@
+{
+  "name": "tailwind-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/css/input.css -o ./public/css/app.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.4",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "alpinejs": "^3.13.0",
+    "esbuild": "^0.19.3"
+  }
+}
